@@ -1,0 +1,7 @@
+Ky projekt eshte punuar ne Java Language, eshte projekt akademik, jo-industrial.
+
+Si databaze eshte perdorur SQL-DB e lidhure permes sql-driver.
+
+Eshte perdorur arkitektura e shtresave(layers).
+
+Ky projekt eshte ndertuar si nje desktop aplikacion, ku paraqet nje sistem per mirembajtje te kompanive te vogla dhe te mesme, ka disa funksione si: regjistrimi i punetoreve, mirembajtja e stokut, faturat hyrese dhe dalese, regjistrimi i produkteve, lokacione, porosi, si dhe gjate procesit te faturimi te gjitha funksionet kalkuluese jane bere ne baze te dy vlerave reale te tvsh(18% dhe 16%). Te gjitha keto funksione jane ndertuar si CRUD forma.

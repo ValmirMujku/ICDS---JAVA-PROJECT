@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="LABKURSPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>BLL.Klienti</class>
+    <class>BLL.Komuna</class>
+    <class>BLL.LlojiiBiznesit</class>
+    <class>BLL.Faktura</class>
+    <class>BLL.Sysdiagrams</class>
+    <class>BLL.Porosia</class>
+    <class>BLL.Qyteti</class>
+    <class>BLL.Punetori</class>
+    <class>BLL.Produkti</class>
+    <class>BLL.Stoku</class>
+    <class>BLL.Pozitat</class>
+    <class>BLL.Biznesi</class>
+    <class>BLL.Users</class>
+    <class>gui.model.ProduktiComboBox</class>
+    <class>DAL.EntityManagProdukti</class>
+    <class>BLL.FaturaHyrese</class>
+    <class>BLL.Shitjet</class>
+    <class>BLL.Hyrjet</class>
+    <class>BLL.Porosite</class>
+    <class>BLL.Produkti_1</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=ICDS"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="045558658"/>
+    </properties>
+  </persistence-unit>
+</persistence>
